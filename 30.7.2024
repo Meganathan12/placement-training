@@ -1,0 +1,53 @@
+def sum_list_elements(lst):
+    return sum(lst)
+
+numbers = [1, 2, 3, 4, 5]
+print("Sum of elements:", sum_list_elements(numbers))
+
+
+
+def find_largest_smallest(lst):
+    return max(lst), min(lst)
+
+numbers = [1, 2, 3, 4, 5]
+largest, smallest = find_largest_smallest(numbers)
+print("Largest element:", largest)
+print("Smallest element:", smallest)
+
+
+
+
+def list_to_tuple(lst):
+    return tuple(lst)
+
+numbers = [1, 2, 3, 4, 5]
+numbers_tuple = list_to_tuple(numbers)
+print("Tuple:", numbers_tuple)
+
+
+
+
+def merge_lists_remove_duplicates(lst1, lst2):
+    return list(set(lst1 + lst2))
+
+list1 = [1, 2, 3]
+list2 = [3, 4, 5]
+merged_list = merge_lists_remove_duplicates(list1, list2)
+print("Merged list without duplicates:", merged_list)
+
+
+
+def element_in_tuple(tpl, element):
+    return element in tpl
+
+numbers_tuple = (1, 2, 3, 4, 5)
+element = 3
+print("Element exists in tuple:", element_in_tuple(numbers_tuple, element))
+
+
+def reverse_list(lst):
+    return lst[::-1]
+
+numbers = [1, 2, 3, 4, 5]
+reversed_numbers = reverse_list(numbers)
+print("Reversed list:", reversed_numbers)
