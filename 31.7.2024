@@ -1,0 +1,72 @@
+
+#include <stdio.h>
+
+int main() {
+    int num1,num2;
+    printf("Enter Number:");
+    scanf("%d",&num1);
+    printf("Enter Number:");
+    scanf("%d",&num2);
+    printf("answer:%d",num1/num2);
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    printNum(6);
+    return 0;
+}
+void printNum(int num)
+{
+    printf("Numbers:%d\n",num);
+    printf("previous number:%d\n",num-2);
+    printf("next number:%d\n",num+2);
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int numbers[] ={1,2,3,4,5,6,7,8};
+    printf("\n%d",numbers[0]);
+    printf("\n%d",numbers[1]);
+    printf("\n%d",numbers[2]);
+    printf("\n%d",numbers[3]);
+}
+
+
+#include <stdio.h>
+
+int main() {
+    double num1,num2;
+    printf("Enter Number:");
+    scanf("%lf",&num1);
+    printf("Enter Number:");
+    scanf("%lf",&num2);
+    printf("answer:%f",num1/num2);
+
+    return 0;
+}
+
+
+#include <stdio.h>
+
+
+int main()
+{
+  printf("%d",addnumbers(24,3);
+}
+
+
+int addnumbers(int num1,int num2)
+{
+  return num1+num2;
+  
+}
+
+
