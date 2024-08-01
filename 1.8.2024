@@ -1,0 +1,131 @@
+
+#include <stdio.h>
+
+int main() {
+      int num1 = 5;
+      int num2 = 5;
+      int num3 = 10;
+      int maximum;
+      if(num1>num2){
+          if(num1>num3){
+                   maximum = num1;
+              }else{
+                  maximum= num3;
+              }
+              }else if(num2>num3){
+                      maximum = num2;
+                  }else{
+                      maximum= num3;
+                      
+                  }
+printf("%d", maximum);
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main() {
+      int a;
+      int b;
+      int c;
+      int maximum;
+      printf("Enter a number ");
+      scanf("%d %d %d",&a,&b,&c);
+      if(a>b){
+          if(a>c){
+                   maximum = a;
+              }else{
+                  maximum= c;
+              }
+              }else if(b>c){
+                      maximum = b;
+                  }else{
+                      maximum= c;
+                      
+                  }
+printf("%d", maximum);
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main() {
+      int a = 2 ;
+      //printf("Enter a number:");
+      //scanf("%d ",&a);
+      switch (a){
+          case 0:
+          printf("zero");
+          break;
+          case 1:
+          printf("one");
+          break;
+          case 2:
+          printf("two");
+          break;
+          case 3:
+          printf("three");
+          break;
+          default :
+          printf("The number is not equal");
+          
+          
+      }
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main() {
+      int a;
+      printf("Enter a number:");
+      scanf("%d ",&a);
+      switch (a){
+          case 0:
+          printf("zero");
+          break;
+          case 1:
+          printf("one");
+          break;
+          case 2:
+          printf("two");
+          break;
+          case 3:
+          printf("three");
+          break;
+          default :
+          printf("The number is not equal");
+          
+          
+      }
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int num ;
+    printf("Enter a number ");
+    scanf("%d",&num);
+    if (num == 0){
+        printf("zero");
+    }else if (num == 1){
+        printf("one");
+    }else(num == 2);{
+        printf("two");
+    }
+    return 0;
+}
+                      
+                
