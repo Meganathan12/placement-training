@@ -1,0 +1,50 @@
+
+#include <stdio.h>
+ struct Batsman{
+        int score;
+        double straike_rater;
+        char name[20];
+    };
+    
+int main() {
+    struct Batsman dhoni;
+    dhoni.score=10;
+    dhoni.straike_rater=1.23;
+    strcpy(dhoni.name,"MS DHONI");
+    printf("\n%d",dhoni.score);
+    printf("\n%lf",dhoni.straike_rater);
+    printf("\n%s",dhoni.name);
+
+    return 0;
+}
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+   int num[3][3] = {{1,2,3},
+   {4,5,6},{7,8,9}};
+int row,col;
+   for (row=0;row<3;row++){
+       for(col=0;col<3;col++){
+           printf("%d",num[row][col]);
+           
+       }
+       printf("\n");
+   }
+               
+
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+   int num = 5;
+   int *num_ address=&num;
+   printf("%p",num_address);
+   return 0;
+}
