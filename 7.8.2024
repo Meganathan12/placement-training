@@ -1,0 +1,34 @@
+python program 1:
+name = input()
+age =input()
+print("my name is:",name)
+print("my age is:",age)
+
+
+python program 2:
+name = input()
+age = input()
+address = input()
+print("my name is:",name)
+print("my age is:",age)
+print("my address is:", address)
+
+
+
+python program 3:
+a = int(input())
+b = int(input())
+c = int(input())
+d = a*b*c
+e = a+b+c
+f = d/e
+
+
+
+python program 4:
+name = input()
+score = int(input())
+department = input()
+print("my name is:",name)
+print("my score is:",score/10,"/10)
+print("my department is:", department)
